@@ -7,7 +7,7 @@ test('has title',{tag:"@smoke"}, async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('get started link',{tag:"@Regression"}, async ({ page }) => {
+test('get started link',{tag:"@regression"}, async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
